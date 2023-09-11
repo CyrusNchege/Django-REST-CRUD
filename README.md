@@ -69,8 +69,15 @@ Note: It might be deleted after a while
 ### API Endpoints
 ```
 - POST /api/ - Create a new name
-- GET /api/ - Get all names
+
+- GET /api/ - Get all names 
+
 - GET /api/<int:pk>/ - Get a single name
+
 - PUT /api/<int:pk>/ - Update a name
+
 - DELETE /api/<int:pk>/ - Delete a name
+
 ```
+
+
