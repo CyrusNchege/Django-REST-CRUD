@@ -56,3 +56,21 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+### Hosted API endpoint (Azure)
+[API endpoint](https://cyrus-django-application.azurewebsites.net/api/)
+
+This endpoint is hosted on Azure and is used to perform CRUD operations on the database
+
+Note: It might be deleted after a while
+
+### Database Modelling(UML Diagram)
+![UML Diagram](/images/uml.png)
+
+### API Endpoints
+```
+- POST /api/ - Create a new name
+- GET /api/ - Get all names
+- GET /api/<int:pk>/ - Get a single name
+- PUT /api/<int:pk>/ - Update a name
+- DELETE /api/<int:pk>/ - Delete a name
+```
