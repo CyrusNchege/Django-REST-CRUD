@@ -3,8 +3,6 @@ from .views import PersonViewSet
 from django.urls import path, include
 
 router = DefaultRouter()
-router.register(r'person', PersonViewSet, basename='person')
+router.register('', PersonViewSet, basename='person')
 
-urlpatterns = [
-    path('api/', include(router.urls)),
-]
+urlpatterns = router.urls
